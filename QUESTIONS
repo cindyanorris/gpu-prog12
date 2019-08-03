@@ -1,0 +1,15 @@
+
+In addition to implementing the device code, answer the following questions:
+
+1) The current value for BINS in config.h is 8, and thus TOTALBINS is 8 * 8 * 8 = 512.  
+If you increase the value for BINS to 16 (TOTALBINS = 4096), how is this going to impact
+the speedups?  Why?  (See directions in assignment if you want to try this out.)
+
+2) If more models are added to the program, how is this going to impact 
+the speedups?  Why?
+
+3) In regards to the classification, what is the advantage of having fewer
+bins then the image pixel space (256 * 256 * 256)?
+
+4) What can go wrong if there are too few bins?
+
